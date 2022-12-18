@@ -49,7 +49,6 @@ class AutenticavelMixIn:
     def autentica(self, senha_autentica):
         if self.senha == senha_autentica:
             return True
-
         else:
             return False
 
